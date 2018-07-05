@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrapVer3.0+.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mycss.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
+        * {
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+    <script>
+        $(function(){
+            $('#dowebok').fullpage({
+                sectionsColor: [ , '#4BBFC3', '#7BAABE', '#f90','#00efc3','#5d5dc3'],
+                'navigation': true,
+            });
+        });
+    </script>
+</head>
+<body>
+    <canvas id="c1"></canvas>
+    <canvas id="c2"></canvas>
+    <div id="dowebok">
+        <div class="section htmleaf-header">
+            <img src="image/touxiang.jpeg" class="head_sculpture">
+            <p style="font-size:2em;font-family:'UD Digi Kyokasho NP-R';">我叫林书豪</p>
+            <p style="font-size:2em;font-family:'UD Digi Kyokasho NP-R';">一位前端开发初学者</p>
+            <p style="font-family: 'UD Digi Kyokasho N-B';text-align: center"> <span class="glyphicon glyphicon-envelope" style="top: 0.13em">&puncsp;</span>1472677055@qq.com</p>
+            <p style="font-family: 'UD Digi Kyokasho N-B';text-align: center"> <span class="glyphicon glyphicon-phone" style="top: 0.13em">&puncsp;</span>13905008115</p>
+        </div>
+        <div class="section">
+            <p style="font-size:2em;font-family:'UD Digi Kyokasho NP-R';">自我介绍</p>
+            <br>
+            <p style="font-size: 0.75em;font-family: 'UD Digi Kyokasho N-B';" class="introduce container">
+                1，有一定的，html，css，JavaScript知识基础。能够结合bootstrap独立进行简单的静态页面开发。并且根据需求进行修改。<br>
+                2，对Jquery有一定的认识。能够独立使用Jquery进行简单的页面行为设计。<br>
+                3，对ajax有简单的了解。对jason数据有简单的了解。<br>
+                4，可以使用c语言结合单片机的特性进行简单的功能开发。<br>
+                5，做事有条理。乐于与人沟通。
+            </p>
+        </div>
+        <div class="section">
+            <p style="font-size:2em;font-family:'UD Digi Kyokasho NP-R';">教育背景</p>
+            <br>
+            <div class="container" style="width:11em ;">
+                <ul style="text-align: start" >
+                        <li>通信原理</li>
+                        <li>现代交换技术与原理</li>
+                        <li>信号与系统</li>
+                        <li>单片机原理与应用</li>
+                        <li>数字信号处理</li>
+                        <li>模拟电子技术</li>
+                        <li>嵌入式技术</li>
+                        <li>MATLAB应用字</li>
+                </ul>
+            </div>
+        </div>
+        <div class="section">
+            <p style="font-size:2em;font-family:'UD Digi Kyokasho NP-R';">在校经历</p>
+            <div class="row">
+                <div class="col">
+                    2014.9-2017.6<br>
+                    校级足球俱乐部部长
+                </div>
+                <div class="col">
+                    2016.05-2016.6<br>
+                    本地数据采集上位机的设计
+                </div>
+                <div class="w-100"></div>
+                <br>
+                <div class="col">
+                    2017.10-2018.2<br>
+                    基于wifi的无线智能家居系统
+                </div>
+                <br>
+                <div class="col">
+                    2016.06-2016.07<br>
+                    基于stm32的双边通信实现</div>
+                </div>
+        </div>
+
+        <div class="section">
+                 <p style="font-size:2em;font-family:'UD Digi Kyokasho NP-R';">兴趣爱好</p>
+                <div class="swip_center_img" style="height: 600px;width: 600px;" >
+                    <img src="image/5.jpg" class="swip_img_radius translate_top" alt="">
+                    <img src="image/touxiang.jpeg" class="swip_img_radius translate_right" alt="">
+                    <img src="image/6.jpg" class="swip_img_radius translate_bottom" alt="">
+                    <img src="image/7.jpg" class="swip_img_radius translate_left" alt="">
+                </div>
+        </div>
+
+        <div class="section">
+            <p style="font-size:2em;font-family:'UD Digi Kyokasho NP-R';">希望能与您共事</p> //往后添加自己的项目
+            <p>吗</p>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

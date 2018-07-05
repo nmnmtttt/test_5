@@ -1,0 +1,73 @@
+
+.head_sculpture {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    transition-duration: 1s;
+}
+.head_sculpture:hover {
+    background-color: #0071b8;
+    border: 5px solid #c9dfec;
+    transform: rotate(360deg);
+    transition-duration: 2s;
+    transition-delay: 0.5s;
+}
+
+.introduce{
+    width: 85%;
+    text-align: left;
+    column-count:2;
+    column-gap:10px;
+    column-rule:2px solid #f5fff5;
+}
+/*旋转效果*/
+.swip_center_img{
+    animation:rotate 20s infinite linear;
+    position:absolute;
+    left:34%;
+    top:20%;
+
+}
+.swip_img_radius{
+    padding:0px;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    box-shadow:inset rgba(0,0,0,.2) .2em .2em 1em;
+    transition:all 0.5s;
+}
+
+@keyframes rotate{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+
+.translate_right{
+    animation:rotate 2000s infinite linear;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.translate_bottom{
+    animation:rotate 40s infinite linear;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.translate_left{
+    background:rgba(153,173,55,.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.translate_top{
+    animation:rotate 40s infinite linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
